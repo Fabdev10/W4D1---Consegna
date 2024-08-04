@@ -87,7 +87,7 @@ const jobs = [
 
 function searchJob (place,job ) {      //commento il codice passo passo: creo una funzione che 
   let outcome = {                     // accetta come argomenti luogo e lavoro; all'interno inserisco
-    results: [],                     //un oggetto che contiente con un array vuoto results e un contatore a 0 count.
+    results: [],                      //un oggetto che contiente con un array vuoto results e un contatore a 0 count.
     count: 0,                       
   };
   for (let i = 0; i < jobs.length; i++) {      // creo un ciclo for che cicla attraverso l'array jobs
